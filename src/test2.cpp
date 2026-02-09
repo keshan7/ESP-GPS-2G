@@ -24,7 +24,7 @@ Adafruit_NeoPixel led(1, RGB_LED_PIN, NEO_GRB + NEO_KHZ800);
 const char* server = "";
 const int port = 80;
 const char* endpoint = "";
-const char* apn = "interne";
+const char* apn = "internet";
 
 // GPS data structure
 struct GPSData {
@@ -538,4 +538,5 @@ void loop() {
   
   delay(100);
 }
+
 
