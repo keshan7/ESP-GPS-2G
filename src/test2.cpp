@@ -21,10 +21,10 @@ Adafruit_NeoPixel led(1, RGB_LED_PIN, NEO_GRB + NEO_KHZ800);
 #define COLOR_YELLOW 255, 255, 0
 
 // Server configuration
-const char* server = "56.228.25.95";
+const char* server = "";
 const int port = 80;
-const char* endpoint = "/api/gps";
-const char* apn = "dialog internet";
+const char* endpoint = "";
+const char* apn = "interne";
 
 // GPS data structure
 struct GPSData {
@@ -538,3 +538,4 @@ void loop() {
   
   delay(100);
 }
+
