@@ -9,10 +9,10 @@
 // #define NEO7M_TX 6
 
 // // Server configuration
-// const char* server = "56.228.25.95";
+// const char* server = "";
 // const int port = 80;
-// const char* endpoint = "/api/gps";
-// const char* apn = "dialog internet";
+// const char* endpoint = "";
+// const char* apn = "internet";
 
 // // GPS data structure
 // struct GPSData {
@@ -453,4 +453,5 @@
 //   }
   
 //   delay(100);
+
 // }
