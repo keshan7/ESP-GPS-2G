@@ -9,10 +9,10 @@
 // #define NEO7M_TX 6
 
 // // Server configuration
-// const char* server = "56.228.25.95";
+// const char* server = "";
 // const int port = 80;
-// const char* endpoint = "/api/gps";
-// const char* apn = "dialog internet"; // Change to your carrier's APN
+// const char* endpoint = "";
+// const char* apn = "internet"; // Change to your carrier's APN
 
 // // GPS data structure
 // struct GPSData {
@@ -360,4 +360,5 @@
 //     Serial.println("s");
 //     lastStatus = currentTime;
 //   }
+
 // }
